@@ -1,0 +1,65 @@
+.cracker-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(77, 77, 77, 0.20);
+}
+.seed-icon {
+    margin-right: 24px;
+}
+.ingredient {
+    width: 32px;
+    margin-right: 24px;
+    color: #FF4200;
+}
+.totals {
+    width: 80px;
+    margin-right: 24px;
+}
+.remove-button {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border-radius: 90px;
+    background: white;
+    border: 1px solid rgba(77, 77, 77, 0.20);
+}
+.cart-icons-container {
+    display: flex;
+    padding-left: 48px;
+    padding-bottom: 12px;
+}
+.checkout-button {
+    display: flex;
+    padding: 11px 24px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+    background: #FF4200;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+.checkout-button:hover {
+    background: #dc3901;
+}
+.cart-info-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 24px;
+}
+.total-cart-text {
+    margin-right: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+
+}

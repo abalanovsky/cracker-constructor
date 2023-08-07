@@ -1,0 +1,45 @@
+.custom-select {
+    position: relative;
+    display: inline-block;
+    margin-left: 24px;
+}
+.selected-item {
+    background-color: transparent;
+    padding: 16px 32px;
+    border-radius: 90px;
+    border: 2px solid #ff4200;
+    cursor: pointer;
+    color: #ff4200;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.options {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: calc(100% - 24px);
+    padding: 0 12px;
+}
+.option {
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #ff4200;
+    border-bottom: 1px solid #ff4200;
+}
+.option:last-child {
+    border-bottom: none;
+}
+.show-options .options {
+    display: block;
+}
